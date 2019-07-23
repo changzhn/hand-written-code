@@ -1,5 +1,5 @@
 const quick = require('../../src/sort/quick');
-let arrCreator = require('./arrCreator');
+let arrCreator = require('../utils').arrCreator;
 const expect = require('chai').expect;
 const arr = arrCreator();
 

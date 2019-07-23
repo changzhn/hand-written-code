@@ -1,6 +1,5 @@
 // 二分查找
 
-let arr = new Array(10).fill(0).map((_, idx) => idx + 1);
 
 /**
   1. 设置左右两个索引，然后一直猜测中间值，根据中间值和查找值的大小比较，来修正左右索引的位置，直到猜测值与查找值相等，如果没有找到返回null;
@@ -30,7 +29,4 @@ function binarySearch(arr, target) {
 	return null;
 }
 
-
-let res = binarySearch(arr, 11)
-
-console.log(res)
+module.exports = binarySearch;

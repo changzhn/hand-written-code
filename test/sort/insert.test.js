@@ -1,5 +1,5 @@
 const insert = require('../../src/sort/insert');
-let arrCreator = require('./arrCreator');
+let arrCreator = require('../utils').arrCreator;
 const expect = require('chai').expect;
 const arr = arrCreator();
 

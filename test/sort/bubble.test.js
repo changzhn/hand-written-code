@@ -1,5 +1,5 @@
 const bubble = require('../../src/sort/bubble');
-let arrCreator = require('./arrCreator');
+let arrCreator = require('../utils').arrCreator;
 const expect = require('chai').expect;
 let arr = arrCreator();
 
