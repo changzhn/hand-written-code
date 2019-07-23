@@ -1,5 +1,7 @@
 // 深度优先遍历
 
+const o = require('./o');
+
 function dfs(o) {
   let rlt = [];
 
@@ -14,3 +16,6 @@ function dfs(o) {
   deep(o);
   return rlt;
 }
+
+let res = dfs(o);
+console.log(res)
