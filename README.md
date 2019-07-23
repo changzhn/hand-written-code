@@ -19,7 +19,7 @@
 6. 至少于可以比较多少轮数，因为每轮都可以确定一个最大值，如果一个数组有n个元素，在n - 1轮过后，就可以确实索引1到n - 1位置的数字，
     同时剩下的第1个数字没有必要再比较，因为没有可交换的空间；
 
-[code](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/algorithms/bubble.js)
+[code](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/sort/bubble.js)
 
 ### 插入排序
 插入排序（升序）：
@@ -29,7 +29,7 @@
 	交换完后，继续向前比较，如果小前一项（idx = 0）小，则继续交换位置；
 4. 重复以上循环，n轮循环过后，数据的前n + 1项已是排好序的状态，如果数据有m项，则一共循环 m - 1轮，因为从第二项开始；
 
-[code](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/algorithms/insert.js)
+[code](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/sort/insert.js)
 
 ### 快速排序
 快速排序（升序）：
@@ -38,4 +38,4 @@
 3. 第一轮循环结束，此时，基准数字左侧都比基准数字小，右侧都比基准数大；
 4. 递归排列左侧的数组和右侧的数组；
 
-[code](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/algorithms/quick.js)
+[code](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/sort/quick.js)

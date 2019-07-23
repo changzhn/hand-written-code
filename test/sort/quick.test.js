@@ -1,11 +1,11 @@
-const bubble = require('../../src/algorithms/bubble');
+const quick = require('../../src/sort/quick');
 let arrCreator = require('./arrCreator');
 const expect = require('chai').expect;
-let arr = arrCreator();
+const arr = arrCreator();
 
-describe('bubble sort test', function() {
-	it('sort result', function() {
-		bubble(arr);
+describe('quick sort test', function() {
+	it('quick result', function() {
+		quick(arr);
 		for(let i = 0; i < arr.length - 1; i++) {
 			expect(arr[i]).lte(arr[i + 1]);
 		}
