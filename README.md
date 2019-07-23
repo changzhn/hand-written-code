@@ -1,7 +1,11 @@
 # 常见前端面试题中的手写代码
 
+> 因为公司突然来了个急刹车，不得不背着大太阳出去面试，总结了一下之前面试过的让手写的代码（都是最基本的实现，没有优化，没有深入），以后想会逐步完善代码；
+> 部分代码加入了测试用例，其余的会后续补充上；
+
+
 ## 排序
-排序方法|时间复杂度 
+排序方法|时间复杂度 
 -------|---------
 冒泡    |O(n^2)   
 插入    |O(n^2)   
@@ -86,3 +90,27 @@ const o = {
 给定排好序的数组和查找值，返回查找值的索引；
 1. 设置左右两个索引，然后一直猜测中间值，根据中间值和查找值的大小比较，来修正左右索引的位置，直到猜测值与查找值相等，如果没有找到返回null;
 2. 例如数组是[1, ..., 100]，查找值是66，第一次的猜测索引是49（值是50），小于66，则修正leftIdx = 49 + 1，如果不+1会陷入死循环；
+
+[code](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/search/binarySearch.js)
+
+## 函数相关
+
+### 实现 call apply bind
+
+[call](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/functional/call.js)
+[apply](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/functional/apply.js)
+[bind](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/functional/bind.js)
+
+### 实现 debounce throttle
+
+[debounce](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/functional/debounce.js)
+[throttle](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/functional/throttle.js)
+
+### 实现 currying
+
+[throttle](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/functional/currying.js)
+
+
+## Todo List
+- Promise
+- require
