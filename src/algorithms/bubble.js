@@ -1,4 +1,3 @@
-const arr = require('./arr');
 
 /**
  * 冒泡排序（升序）：
@@ -13,8 +12,8 @@ const arr = require('./arr');
  */
 
 /**
- * 
- * @param {Array} arr 
+ *
+ * @param {Array} arr
  */
 function bubble(arr) {
   for(let i = 0; i < arr.length - 1; i++) { /* 6 */
@@ -26,6 +25,4 @@ function bubble(arr) {
   }
 }
 
-bubble(arr);
-
-console.log(arr)
+module.exports = bubble;

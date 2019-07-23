@@ -1,0 +1,24 @@
+{
+  "name": "hand-written-code",
+  "version": "1.0.0",
+  "description": "手写代码",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joo-fanChang/hand-written-code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joo-fanChang/hand-written-code/issues"
+  },
+  "homepage": "https://github.com/Joo-fanChang/hand-written-code#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  }
+}
