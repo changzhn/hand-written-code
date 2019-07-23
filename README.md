@@ -1,8 +1,11 @@
 # 常见前端面试题中的手写代码
 
+![img](https://www.travis-ci.org/Joo-fanChang/hand-written-code.svg?branch=master)
+
 > 因为公司突然来了个急刹车，不得不背着大太阳出去面试，总结了一下之前面试过的让手写的代码（都是最基本的实现，没有优化，没有深入），以后想会逐步完善代码；
 > 部分代码加入了测试用例，其余的会后续补充上；
 
+[GIT](https://github.com/Joo-fanChang/hand-written-code)
 
 ## 排序
 排序方法|时间复杂度 
