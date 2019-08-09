@@ -124,6 +124,11 @@ const o = {
 [throttle](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/functional/currying.js)
 
 
+## 实现
+### 斐波那契数列
+利用闭包缓存数据
+[fibonacci](https://github.com/Joo-fanChang/hand-written-code/blob/master/src/algorithm/fibonacci.js)
+
 ## Todo List
 - Promise
 - require
