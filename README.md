@@ -133,3 +133,11 @@ const o = {
 - Promise
 - require
 - test
+
+- 异步相加
+- 36进制
+- 
+[a[b[c]]]
+// 转化为
+{ value: 'a', children: { value: 'b', children: { value: 'c' } } }
+

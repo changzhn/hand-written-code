@@ -52,4 +52,7 @@ function quick(arr) {
 	}
 }
 
+var arr = [20, 31, 3, 44, 111, 67, 11, 34, 56, 78, 12, 11];
+quick(arr)
+console.log(arr);
 module.exports = quick;

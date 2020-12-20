@@ -29,3 +29,31 @@ function createFibonacci() {
 }
 
 module.exports = createFibonacci();
+
+function fn1(num) {
+	if (num <= 1) {
+		return 1;
+	}
+	let a = 1;
+	let b = 1;
+	for(var i = 2; i <= num; i++) {
+		let c = a + b;
+		a = b;
+		b = c;
+	}
+
+	return b;
+}
+
+
+
+function fn2(num, a = 1, b = 1) {
+	if (num === 0) {
+		return a;
+	}
+	return fn2(num - 1, b, a + b);
+}
+
+for(var i = 0; i < 5; i++) {
+	console.log(fn2(i));
+}
